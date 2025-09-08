@@ -34,7 +34,7 @@ lab 2 about
     <table border="1" cellpadding="8">
         <tr>
             <td><a href="lab2-home.html">Home Page (Relative Link)</a></td>
-            <td><a href="mailto:yourname@example.com">Email Me</a></td>
+            <td><a href="mailto:zdobariya2@gmail.com">Email Me</a></td>
         </tr>
     </table>
 </body>

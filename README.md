@@ -74,7 +74,7 @@ Lab 3
   <style>
     body {
       font-family: Arial, sans-serif;
-      background: linear-gradient(to right, #564c4d, #c19a6b);
+      background: linear-gradient(to right, #F5F5F5 );
       margin: 0;
       padding: 0;
       display: flex;

@@ -216,4 +216,72 @@ Lab 3
 </body>
 </html>
 
+LAB4
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lab 4 - CSS Formatting Basics</title>
+    <link rel="stylesheet" href="lab4-styles.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to Lab 4</h1>
+    </header>
+    <main>
+        <p>This is the first paragraph. It contains some placeholder text for styling practice.</p>
+        <p>This is the second paragraph. Feel free to add more content if you'd like.</p>
+        <ul>
+            <li>Item 1</li>
+            <li>Item 2</li>
+            <li>Item 3</li>
+        </ul>
+        <a href="https://www.tri-c.edu">Visit Cuyahoga Community College</a>
+        <div class="styled-box">
+            <p>This is a styled box. Add your CSS rules to make it look great!</p>
+        </div>
+    </main>
+</body>
+</html>
+/* Global Styles */
+body {
+    background-color: #f0f8ff; /* light background */
+    font-family: Arial, sans-serif;
+}
+
+/* Header Styling */
+h1 {
+    color: darkblue; /* your choice of color */
+    text-align: center;
+}
+
+/* Paragraph Styling */
+p {
+    color: darkgreen;
+    padding: 10px;
+}
+
+/* List Styling */
+li {
+    color: darkred; /* list item text color */
+}
+
+/* Link Styling */
+a {
+    color: blue;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+/* Box Styling */
+.styled-box {
+    border: 2px solid black;
+    background-color: lightgray;
+    padding: 15px;
+    text-align: center;
+}
 

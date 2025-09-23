@@ -244,6 +244,7 @@ LAB4
     </main>
 </body>
 </html>
+
 /* Global Styles */
 body {
     background-color: #f0f8ff; /* light background */

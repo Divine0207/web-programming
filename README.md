@@ -343,4 +343,42 @@ Lab5 styles
 </body>
 </html>
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>CSS Box Model Lab</title>
+<style>
+.box { 
+     border: 5px solid blue;
+     padding: 20px;
+     margin: 20px;
+     box-sizing: border-box;
+     height: 150px;
+     width: 300px;
+     background-color: lightgray;
+     }
 
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    padding: 20px;
+  }   
+
+h1 {
+    color: #333;
+}
+</style>
+</head>
+<body>
+<h1>CSS Box Model Lab</h1>
+<div class="box">
+<p>This is a demonstration of the CSS Box Model.</p>
+</div>
+
+<div class="box">
+    <p> This is another box to show how margin spacing works between elements.</p>
+</div>
+</body>
+</html>

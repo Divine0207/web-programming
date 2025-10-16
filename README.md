@@ -411,31 +411,6 @@ lab 7
   <!-- Main Content -->
   <main class="main-content">
 
-    <!-- Menu Section -->
-    <section id="menu">
-      <h2>Featured Coffees</h2>
-      <div class="flex-container">
-        <div class="flex-item">Espresso</div>
-        <div class="flex-item">Cappuccino</div>
-        <div class="flex-item">Latte</div>
-        <div class="flex-item">Mocha</div>
-      </div>
-    </section>
-
-    <!-- About Us Section -->
-    <section id="about">
-      <h2>About Us</h2>
-      <p>Java Haven is your cozy coffee shop for the best brews in town! We serve freshly roasted coffee and create a welcoming space for all coffee lovers.</p>
-    </section>
-
-    <!-- Contact Section -->
-    <section id="contact">
-      <h2>Contact Us</h2>
-      <p>Email: info@javahaven.com</p>
-      <p>Phone: (555) 123-4567</p>
-      <p>Address: 123 Coffee Lane, Brewtown</p>
-    </section>
-
   </main>
 
   <!-- Footer -->

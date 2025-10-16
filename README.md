@@ -382,4 +382,158 @@ h1 {
 </div>
 </body>
 </html>
+lab 7 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Java Haven</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Header -->
+  <header class="header">
+    <h1>Java Haven</h1>
+    <p>Your daily dose of caffeine and comfort.</p>
+  </header>
 
+  <!-- Navigation -->
+  <nav class="nav">
+    <ul>
+      <li><a href="#menu">Menu</a></li>
+      <li><a href="#about">About Us</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- Main Content -->
+  <main class="main-content">
+
+    <!-- Menu Section -->
+    <section id="menu">
+      <h2>Featured Coffees</h2>
+      <div class="flex-container">
+        <div class="flex-item">Espresso</div>
+        <div class="flex-item">Cappuccino</div>
+        <div class="flex-item">Latte</div>
+        <div class="flex-item">Mocha</div>
+      </div>
+    </section>
+
+    <!-- About Us Section -->
+    <section id="about">
+      <h2>About Us</h2>
+      <p>Java Haven is your cozy coffee shop for the best brews in town! We serve freshly roasted coffee and create a welcoming space for all coffee lovers.</p>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+      <h2>Contact Us</h2>
+      <p>Email: info@javahaven.com</p>
+      <p>Phone: (555) 123-4567</p>
+      <p>Address: 123 Coffee Lane, Brewtown</p>
+    </section>
+
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <p>&copy; 2025 Java Haven. All Rights Reserved.</p>
+  </footer>
+</body>
+</html>
+<style>/* Grid layout for overall page structure */
+body {
+  display: grid;
+  grid-template-areas:
+    "header"
+    "nav"
+    "main"
+    "footer";
+  grid-template-rows: auto auto 1fr auto;
+  min-height: 100vh;
+  margin: 0;
+  font-family: "Segoe UI", Arial, sans-serif;
+  background-color: #f5f0e6; /* warm coffee-inspired background */
+  color: #3b2f2f;
+}
+
+/* Semi-transparent sections */
+.header, .nav, .main-content, .footer, section {
+  background-color: rgba(255, 250, 240, 0.9);
+  padding: 20px;
+  border-radius: 10px;
+  margin: 10px;
+}
+
+/* Header */
+.header {
+  grid-area: header;
+  text-align: center;
+}
+
+/* Navigation */
+.nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding: 0;
+  margin: 0;
+}
+
+.nav a {
+  text-decoration: none;
+  color: #3b2f2f;
+  font-weight: bold;
+}
+
+.nav a:hover {
+  color: #6f4e37;
+}
+
+/* Flexbox for coffee cards */
+.flex-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.flex-item {
+  background-color: rgba(111, 78, 55, 0.85);
+  color: #fff;
+  padding: 30px;
+  border-radius: 12px;
+  width: 150px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 1.2em;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.3);
+  transition: transform 0.2s ease;
+}
+
+.flex-item:hover {
+  transform: scale(1.05);
+}
+
+/* Footer */
+.footer {
+  grid-area: footer;
+  text-align: center;
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+  .flex-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .flex-item {
+    width: 80%;
+  }
+}
+</style>

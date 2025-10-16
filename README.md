@@ -411,7 +411,7 @@ lab 7
   <main class="main-content">
 
     <!-- Menu Section -->
-    <section id="menu">
+  <section id="menu">
       <h2>Featured Coffees</h2>
       <div class="flex-container">
         <div class="flex-item">Espresso</div>
@@ -419,21 +419,22 @@ lab 7
         <div class="flex-item">Latte</div>
         <div class="flex-item">Mocha</div>
       </div>
-    </section>
+      
+</section>
 
     <!-- About Us Section -->
-    <section id="about">
+<section id="about">
       <h2>About Us</h2>
       <p>Java Haven is your cozy coffee shop for the best brews in town! We serve freshly roasted coffee and create a welcoming space for all coffee lovers.</p>
-    </section>
+  </section>
 
-    <!-- Contact Section -->
-    <section id="contact">
+<!-- Contact Section -->
+ <section id="contact">
       <h2>Contact Us</h2>
       <p>Email: info@javahaven.com</p>
       <p>Phone: (555) 123-4567</p>
       <p>Address: 123 Coffee Lane, Brewtown</p>
-    </section>
+ </section>
 
   </main>
 
@@ -537,3 +538,57 @@ body {
   }
 }
 </style>
+lab 8
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Button</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin-top: 50px;
+        }
+        button {
+            font-size: 20px;
+            padding: 10px 20px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+    <h1>Welcome to My Page</h1>
+    <button id="nameButton">Click Me!</button>
+    <script>        
+        
+// Output your name using document.write
+        document.write("Created by: Zeny Dobariya <br><br>");
+
+// Select the button using its ID
+        const button = document.getElementById("nameButton");
+
+  // Add a click event listener to the button
+        button.addEventListener("click", () => {
+            // Prompt the user to enter their name
+            const user = prompt("What is your name?");
+            
+  // If a name is entered, update the button text
+            if (user) {
+                button.textContent = `Hello, ${user}!`;
+            } else {
+                button.textContent = "Click Me!";
+            }
+        });
+</script>
+</body>
+</html>
+

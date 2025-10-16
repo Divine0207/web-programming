@@ -538,3 +538,57 @@ body {
   }
 }
 </style>
+
+Lab 8 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Button</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin-top: 50px;
+        }
+        button {
+            font-size: 20px;
+            padding: 10px 20px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+    <h1>Welcome to My Page</h1>
+    <button id="nameButton">Click Me!</button>
+
+    <script>
+        // Output your name using document.write
+        document.write("Created by: Zeny Dobariya <br><br>");
+
+        // Select the button using its ID
+        const button = document.getElementById("nameButton");
+
+        // Add a click event listener to the button
+        button.addEventListener("click", () => {
+            // Prompt the user to enter their name
+            const user = prompt("What is your name?");
+            
+            // If a name is entered, update the button text
+            if (user) {
+                button.textContent = `Hello, ${user}!`;
+            } else {
+                button.textContent = "Click Me!";
+            }
+        });
+    </script>
+</body>
+</html>
